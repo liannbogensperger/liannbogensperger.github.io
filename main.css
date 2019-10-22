@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1920px
+} center,  ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+
+#container {
+	width: 100vw;
+	height: 100vh;
+	background: #FFFFFF; 
+	}
+	
+#bluetitlebox {
+	width: 41%;
+	height: 100%;
+	float: left;
+	background: #B0DFF4; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+#whitetitlebox {
+	width: 59%;
+	height: 100%;
+	float: left;
+	background: white;
+	display: flex;
+	align-items: center; 
+	justify-content: left;
+}
+#knifetitle {
+	text-align: center;
+	}
+
+#utilitybox{
+	text-align: left;
+	padding: 40px;
+	}
+	
+	a {
+ 	color: #B0DFF4;
+  	text-decoration: none;
+  	text-transform: uppercase;
+	}
+
+	a:hover {
+  	text-decoration: underline;
+	}
+
+	a:active {
+  	color: black;
+	}
+
+	h1 	{
+	color: black;
+    font-family: times;
+    font-size: 100px;
+	font-style: italic
+	; }
+
+	h2 {
+		color:#B0DFF4;
+		font-family: helvetica;
+		font-size: 60px;
+	}
