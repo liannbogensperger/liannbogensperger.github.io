@@ -23,11 +23,11 @@ header, hgroup, menu, nav, section { display: block; }
 }
 
 #textcollumn {
-	width: 35%;
-	height: 100%;
+	width: 1000px;
+	height: 200px;
 	float: left;
-	margin-left: 32%;
-	margin-top: 21%;
+	left: 450px;
+	top:400px;
 	position: absolute;
 }
 
